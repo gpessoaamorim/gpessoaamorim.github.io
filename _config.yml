@@ -205,3 +205,9 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-spaceship
+
+# Font
+
+body {
+  font-family: '{{ site.fonts.primary }}',{{ site.fonts.secondary }},Mulish,sans-serif;
+}
